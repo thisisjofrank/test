@@ -1,0 +1,30 @@
+
+Original code:
+http://jsbin.com/ruqixufabo/1/edit?html,css,output
+
+Browser suport:
+Safari 4+
+IE 9+
+latest desktop mozila and chrome
+
+
+Bugfixing:
+1) product tiles should be aligned 4 per line
+2) spacing between product tiles and recommendations was missed
+3) product tiles should not jump when hover
+4) product tiles should be aligned by top vertically
+
+
+Features:
+1) desktop only (960px+ ): label should be in right top corner of product tile; should be presented as circle.
+2) devices (less then 959px): product tiles should be aligned 2 per line
+3) implement SCSS/LESS and apply precompiling approaches
+
+
+JS: Implement "add to bag"
+1) Add "Add to bag" button to product tile
+2) on click:
+ -- button should become disabled
+ -- "Added to bag" message should appear underneath button
+ -- product should become half-transparent
+ — pop-up as per design appears on click. centered on desktop. fullscreen on mobile

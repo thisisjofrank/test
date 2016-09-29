@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Product list</title>
+	<link rel="stylesheet" href="dist/concat/bundle.min.css"/>
+</head>
+<body>
+	<div class="productlist">
+		<div class="product">
+            <div class="product__about">
+                <h3 class="product__title">Product one</h3>
+            </div>
+			<p class="product__description">
+				Lorem ipsum dolor sit amet
+			</p>
+            <button class="product__buy">Add to bag</button>
+        </div>
+		<div class="product">
+            <div class="product__about">
+                <h3 class="product__title">Product two</h3>
+            </div>
+            <p class="product__description">
+				Consectetur adipisicing elit.
+			</p>
+            <button class="product__buy">Add to bag</button>
+        </div>
+		<div class="product">
+            <div class="product__about">
+                <h3 class="product__title">Product three</h3>
+                <div class="product__label">SALE!</div>
+            </div>
+            <p class="product__description">
+				Quia expedita corporis eligendi illum officia reiciendis nemo dicta maiores magnam.
+			</p>
+            <button class="product__buy">Add to bag</button>
+        </div>
+		<div class="product">
+            <div class="product__about">
+                <h3 class="product__title">Product four</h3>
+            </div>
+            <p class="product__description">
+				Placeat nostrum maiores ratione quasi odio nam dolorum quaerat excepturi cumque.
+			</p>
+            <button class="product__buy">Add to bag</button>
+        </div>
+	</div>
+
+    <div class="overlay">
+        <div class="incart" id="modal">
+            <a href="#" class="incart__close">close</a>
+            <h2>Thank you</h2>
+            <h3 class="product__title">Your product has been added to the cart</h3>
+
+            <div class="recomendationlist">
+        		<div class="recommendation">
+                    <div class="product__about">
+                        <h3 class="product__title">Product similar</h3>
+                    </div>
+                    <p class="product__description">
+        				sit dolor amet Lorem ipsum
+        			</p>
+                    <button class="product__buy">Add to bag</button>
+                </div>
+        		<div class="recommendation">
+                    <div class="product__about">
+                        <h3 class="product__title">Product best</h3>
+                        <div class="product__label">BEST!</div>
+                    </div>
+                    <p class="product__description">
+        				adipisicing elit.  Consectetur
+        			</p>
+                    <button class="product__buy">Add to bag</button>
+                </div>
+        	</div>
+        </div>
+    </div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
+	<script src="dist/js/script.min.js"></script>
+</body>
+</html>

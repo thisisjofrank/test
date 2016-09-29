@@ -1,0 +1,76 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/ukjfr04/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/Users/ukjfr04/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'gulp-concatCss' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json test@1.0.0 No repository field.
+5 warn package.json test@1.0.0 No README data
+6 warn package.json gulp-minify-css@1.2.4 No repository field.
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'gulp-concatCss', null ]
+9 verbose cache add name=undefined spec="gulp-concatCss" args=["gulp-concatCss",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'gulp-concatCss',
+10 verbose parsed url   path: 'gulp-concatCss',
+10 verbose parsed url   href: 'gulp-concatCss' }
+11 silly lockFile 8e987cad-gulp-concatCss gulp-concatCss
+12 verbose lock gulp-concatCss /Users/ukjfr04/.npm/8e987cad-gulp-concatCss.lock
+13 silly lockFile 8e987cad-gulp-concatCss gulp-concatCss
+14 silly lockFile 8e987cad-gulp-concatCss gulp-concatCss
+15 verbose addNamed [ 'gulp-concatCss', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile a1b83674-gulp-concatCss gulp-concatCss@
+18 verbose lock gulp-concatCss@ /Users/ukjfr04/.npm/a1b83674-gulp-concatCss.lock
+19 silly addNameRange { name: 'gulp-concatCss', range: '*', hasData: false }
+20 verbose request where is /gulp-concatCss
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 63207804a2f2c467
+23 verbose url raw /gulp-concatCss
+24 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-concatCss' ]
+25 verbose url resolved https://registry.npmjs.org/gulp-concatCss
+26 verbose request where is https://registry.npmjs.org/gulp-concatCss
+27 info trying registry request attempt 1 at 15:21:17
+28 http GET https://registry.npmjs.org/gulp-concatCss
+29 http 404 https://registry.npmjs.org/gulp-concatCss
+30 silly registry.get cb [ 404,
+30 silly registry.get   { 'content-type': 'application/json',
+30 silly registry.get     'cache-control': 'max-age=0',
+30 silly registry.get     'content-length': '2',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Thu, 29 Sep 2016 14:21:17 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-lcy1127-LCY',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1475158877.520503,VS0,VE189',
+30 silly registry.get     vary: 'Accept-Encoding' } ]
+31 silly lockFile a1b83674-gulp-concatCss gulp-concatCss@
+32 silly lockFile a1b83674-gulp-concatCss gulp-concatCss@
+33 error 404 Not Found
+33 error 404
+33 error 404 'gulp-concatCss' is not in the npm registry.
+33 error 404 You should bug the author to publish it
+33 error 404 It was specified as a dependency of 'test'
+33 error 404
+33 error 404 Note that you can also install from a
+33 error 404 tarball, folder, or http url, or git url.
+34 error System Darwin 15.6.0
+35 error command "/Users/ukjfr04/.nvm/v0.10.33/bin/node" "/Users/ukjfr04/.nvm/v0.10.33/bin/npm" "install" "--save-dev" "gulp-concatCss"
+36 error cwd /Users/ukjfr04/Documents/Development/test
+37 error node -v v0.10.33
+38 error npm -v 1.4.28
+39 error code E404
+40 verbose exit [ 1, true ]
